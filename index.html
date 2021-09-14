@@ -14,13 +14,13 @@
     <h1>Stock Profit Loss Calculator </h1>
     <main>
         <label for="initial-price">Purchased Price: 
-        <input  id="initial-price" type="number" placeholder="Enter Purchase Price">
+        <input min="0" id="initial-price" type="number" placeholder="Enter Purchase Price">
     </label>
         <label for="quantity">Quantity Purchased: 
-        <input id="quantity" type="number" placeholder="No. of Stocks">
+        <input min="0" id="quantity" type="number" placeholder="No. of Stocks">
     </label>
         <label for="final-price">Current Price: 
-        <input id="final-price" type="number" placeholder="Enter Current Price">
+        <input  min="0" id="final-price" type="number" placeholder="Enter Current Price">
     </label>
         <button id="submit">Tell me</button>
         <div id="display"></div>
