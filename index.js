@@ -20,7 +20,7 @@ function loss_cal() {
 }
 
 function calculate() {
-    if(Number(final_price.value)<0 ||  Number(initial_price.value)<0 || quantity.value){
+    if(Number(final_price.value)<0 ||  Number(initial_price.value)<0 || Number(quantity.value)<0){
          display.innerText = "Enter Positive Number";
     }
    else if (Number(final_price.value) > Number(initial_price.value)) {
