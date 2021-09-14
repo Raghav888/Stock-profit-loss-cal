@@ -21,7 +21,7 @@ function loss_cal() {
 
 function calculate() {
     if(Number(final_price.value)<0 ||  Number(initial_price.value)<0){
-         display.innerText = "Enter Positive Number":
+         display.innerText = "Enter Positive Number";
     }
    else if (Number(final_price.value) > Number(initial_price.value)) {
         profit_cal()
