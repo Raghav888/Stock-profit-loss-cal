@@ -20,7 +20,7 @@ function loss_cal() {
 }
 
 function calculate() {
-    if(Number(final_price.value)<0 or  Number(initial_price.value)<0){
+    if(Number(final_price.value)<0 OR  Number(initial_price.value)<0){
          display.innerText = "Enter Positive Number":
     }
    else if (Number(final_price.value) > Number(initial_price.value)) {
