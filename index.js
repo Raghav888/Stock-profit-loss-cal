@@ -19,7 +19,7 @@ const loss_cal=()=> {
     display.innerText = `Ohh no, you are in loss of Rupees ${current_loss.toFixed(2)} and the percent is ${loss_perct.toFixed(2)} %`
 }
 
-const calculate()=> {
+const calculate=()=> {
     if(Number(final_price.value)<0 ||  Number(initial_price.value)<0 || Number(quantity.value)<0){
          display.innerText = `Enter Positive Number`;
     }
